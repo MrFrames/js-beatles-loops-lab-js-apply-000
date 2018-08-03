@@ -19,7 +19,7 @@ function johnLennonFacts(factList){
   var factExclamationList = []
   var count = 0
   while (count < factList.length - 1){
-    factExclamationList.push(factList.pop() + "!!!")
+    factExclamationList.push(factList[count] + "!!!")
     count ++
   }
   return factExclamationList
